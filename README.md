@@ -1,5 +1,7 @@
 # Waste Less Game
 
+A Phaser browser game!
+
 ## Available Commands
 
 | Command | Description |
