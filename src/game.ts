@@ -176,7 +176,7 @@ export default class WasteLess extends Phaser.Scene {
 			this.bottomText.setText(`${remainingBins.length}/3 van capacity`);
 		}
 		if (collectedBins.length > 0) {
-			this.topText.setText("You can only drop off one waste at a time. Go to another bin.");
+			this.topText.setText("You can only drop off one waste at a time. Go to another warehouse.");
 		} else {
 			this.topText.setText('');
 		}
