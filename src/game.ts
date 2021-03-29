@@ -11,6 +11,9 @@ const KEYS = {
 	WASTE: 'waste',
 }
 
+
+
+
 export default class WasteLess extends Phaser.Scene {
 	cursors: Phaser.Types.Input.Keyboard.CursorKeys;
 	player: Phaser.Types.Physics.Arcade.SpriteWithDynamicBody;
