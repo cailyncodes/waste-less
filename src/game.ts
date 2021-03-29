@@ -12,8 +12,6 @@ const KEYS = {
 }
 
 
-
-
 export default class WasteLess extends Phaser.Scene {
 	cursors: Phaser.Types.Input.Keyboard.CursorKeys;
 	player: Phaser.Types.Physics.Arcade.SpriteWithDynamicBody;
@@ -108,7 +106,7 @@ export default class WasteLess extends Phaser.Scene {
 
 		const playerCollectedBins = this.player.getData('bins') || [];
 		if (playerCollectedBins.length === 3) {
-			this.topText.setText("You van is full! Drop off waste at the warehouse.");
+			this.topText.setText("Your van is full! Drop off waste at the warehouse.");
 		}
 	}
 
