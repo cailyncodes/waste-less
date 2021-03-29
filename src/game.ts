@@ -1,5 +1,4 @@
 import 'phaser';
-import { WIDTH, HEIGHT } from './config';
 import { cartesianProduct } from './lib/cartesian-product';
 import { shuffle } from './lib/shuffle';
 
